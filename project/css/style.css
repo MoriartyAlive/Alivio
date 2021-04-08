@@ -1,0 +1,333 @@
+@font-face {
+	font-family: "AvenirNextCyr-Regular";
+	src: url("../fonts/avenirnextcyr-regular.woff2") format("woff2");
+}
+body {
+    width: 1920px;
+}
+a {
+    text-decoration: none;
+    color: #292929;
+}
+ul {
+    list-style: none;
+}
+.site-navigation {
+    display: flex;
+    width: 629px;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+}
+.site-navigation a {
+    display: block;
+    width: 157px;
+    height: 55px;
+    text-align: center;
+    padding-top: 30px;
+}
+.site-navigation a, .user-navigation a, .text-1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.site-navigation a {
+    font-weight: 500;
+}
+.wrapper-1 {
+    display: flex;
+}
+.logo {
+    margin: 30px 136px auto 275px;
+}
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+.user-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button-1 {
+    display: block;
+    width: 125px;
+    height: 36px;
+    text-align: center;
+    padding-top: 14px;
+    color: black;
+}
+.button-2 {
+    display: block;
+    color: white;
+    padding: 13px 50px;
+    background: #01996D;
+    border-radius: 4px;
+    margin-right: -5px;
+}
+.main-content-wrapper {
+    height: 895px;
+    background-image: url(../img/bd-header.jpg);
+    border: 1px solid #D6D6D6;
+}
+.main-content {
+    margin: 175px 1200px auto 275px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #01996D;
+    margin: 0;
+}
+.text-1 {
+    line-height: 31px;
+    margin-top: 30px;
+    height: 123px;
+    color: #484848;
+}
+.button-3 {
+    display: block;
+    color: white;
+    background: #01996D;
+    width: 228px;
+    font-family: 'Lato';
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+.button-2:hover, .button-3:hover, .button-4:hover, .button-5:hover {
+    background: linear-gradient(to bottom, green, lightgreen);
+    color: blue;
+    font-weight: 800;
+}
+.button-1:hover, .site-navigation a:hover {
+    background: linear-gradient(to top, rgb(224, 223, 223), rgb(194, 184, 184));
+}
+.wrapper-2 {
+    margin: 169px auto auto 275px;
+    width: 1413px;
+    display: flex;
+}
+.inner-1 {
+   width: 573px;
+}
+.inner-1 p {
+    margin: 0;
+    font-family: 'Lato', serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.inner-1 h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D;
+    line-height: 78px;
+    margin: 5px 0 0 0;
+}
+.text-2 {
+    width: 650px;
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 56px 0 0 148px;
+    color: #424242;
+
+}
+/* Дальше стили для перечисления шагов 01,02,03 */
+.wrapper-3 {
+    display: flex;
+    margin: 134px 254px -7px 275px;
+    width: 1400px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.text-step-1, .text-step-2, .text-step-3 {
+    font-family: "Lato", serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #424242;
+}
+.step-1 p, .step-2 p, .step-3 p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+}
+.step-1 p {
+    height: 150px;
+    width: 332px;
+    margin: 0 0 0 8px;
+    padding: 58px 0 0 4px;
+    text-align: center;
+    background: url(../img/01.png) no-repeat;
+}
+.image-1 {
+    height: 492px;
+    width: 390px;
+    margin: 60px 0 0 0;
+    background: url(../img/item1.png);
+}
+.image-1 img {
+    margin: 226px 0 auto 205px;
+}
+.step-2 {
+    margin: 288px 0 5px 95px;
+}
+.step-2 p {
+    height: 155px;
+    width: 394px;
+    padding: 58px 0 0 70px;
+    margin: 0 0 0 5px;
+    background: url(../img/02.png) no-repeat;
+}
+.image-2 img {
+    margin: 34px 0 0 0;
+}
+.step-3 {
+    width: 410px;
+    margin: 53px 0 0 83px;
+}
+.step-3 p {
+    height: 142px;
+    padding: 55px 0 0 114px;
+    margin: 0 0 0 17px;
+    background: url(../img/03.png) no-repeat;
+}
+.image-3 img{
+    margin: 48px 0 0 9px;
+}
+/* Дальше стили для следующего блока */
+.wrapper-4 {
+    height: 922px;
+    background: url(../img/BG.png);
+    margin-top: 46px;
+    display: flex;
+}
+.inner-2 {
+    margin: 269px 0 0 207px;
+    width: 553px;
+}
+.inner-2 h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78px;
+}
+.text-3 {
+    font-family: "Lato", serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+.button-4 {
+    display: block;
+    width: 240px;
+    height: 45px;
+    background: #01996D;
+    color: white;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 60px;
+    border-radius: 4px;
+}
+.inner-3 {
+    margin: 229px 0 0 57px;
+}
+/* Cледующий блок */
+.wrapper-5 {
+    padding-top: 105px;
+    display: flex;
+    height: 831px;
+}
+.inner-4 {
+    margin-left: 260px;
+    width: 700px;
+}
+.inner-4 img {
+    position: relative;
+}
+.image-4 {
+    top: 354px;
+    left: -4px;
+    z-index: 1;
+}
+.image-5 {
+    top: -320px;
+    left: 76px;
+}
+.inner-5 {
+    margin: 18px 0 0 100px;
+}
+.inner-5 p {
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+    color: #424242;
+}
+.inner-5 h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px;
+    color: #01996D;
+    margin: 17px 0 20px 0;
+}
+.text-4 {
+    font-family: "Lato", serif;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    margin-bottom: 30px;
+}
+.button-5 {
+    display: block;
+    width: 228px;
+    height: 45px;
+    padding-top: 20px;
+    text-align: center;
+    background: #01996D;
+    font-family: "Lato", serif;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+/* Стили для футера */
+.footer {
+    height: 560px;
+    background: #245852;
+    padding: 95px 0 0 275px;
+}
+.footer p {
+    font-family: "AvenirNextCyr-Regular";
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+.footer ul {
+    margin: 65px 0 0 0;
+    padding: 0;
+}
+.footer a {
+    font-family: "Lato", serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    display: block;
+    margin-bottom: 60px;
+}
+.footer a:hover {
+    color: red;
+}
